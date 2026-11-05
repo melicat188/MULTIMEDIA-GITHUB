@@ -5,6 +5,7 @@ function updateCounter(event) {
 
   let cantidad = event.touches.length;
   let cancionCelular = document.getElementById("cancion-celular");
+  let Perrito = document.getElementById ("perrito")
 
   
 
@@ -19,6 +20,7 @@ function updateCounter(event) {
     touchArea.style.backgroundColor = "rgb(0, 174, 250)"; 
 
        cancionCelular.play();
+       Perrito.visible();
     
   
   
