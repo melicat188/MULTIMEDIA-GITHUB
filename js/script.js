@@ -10,3 +10,4 @@ touchArea.addEventListener("touchmove", updateCounter, { passive: false });
 touchArea.addEventListener("touchend", updateCounter);
 touchArea.addEventListener("touchcancel", updateCounter);
 
+
