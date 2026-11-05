@@ -5,7 +5,7 @@ function updateCounter(event) {
 
   let cantidad = event.touches.length;
   let cancionCelular = document.getElementById("cancion-celular");
-  let Perrito = document.getElementById ("perrito")
+  let Perrito = document.getElementById ("contenedor-img")
 
   
 
