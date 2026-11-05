@@ -16,11 +16,15 @@ function updateCounter(event) {
   }
   if(cantidad == 1){
     touchArea.style.backgroundColor = "rgb(0, 174, 250)"; 
-    cancionCelular.play();
+
+       cancionCelular.play();
+    
+  
   
   }
   if(cantidad == 2){
     touchArea.style.backgroundColor = "rgb(255, 0, 250)";
+    cancionCelular.pause();
   }
   if(cantidad == 3){
     touchArea.style.backgroundColor = "rgb(0, 138, 255)";
