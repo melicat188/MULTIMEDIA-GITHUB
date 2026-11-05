@@ -14,14 +14,14 @@ function updateCounter(event) {
   if(cantidad == 0){
     touchArea.style.backgroundColor = "rgb(255, 174, 0)"; 
     cancionCelular.pause();
+     Perrito.style.visibility = "hidden";  
   
   }
   if(cantidad == 1){
     touchArea.style.backgroundColor = "rgb(0, 174, 250)"; 
 
        cancionCelular.play();
-       Perrito.visible();
-    
+       Perrito.style.visibility = "visible";    
   
   
   }
